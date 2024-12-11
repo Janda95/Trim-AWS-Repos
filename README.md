@@ -7,8 +7,9 @@ AWS Lambda to comb through running repo instances and kill off oldest survivors 
 
 
 ### Progress and Planned Updates
-- [ ] Generate Testing Environment
-- [ ] Local Testing
+- [x] Generate Testing Environment
+- [x] Local Testing
+- [ ] AWS ECRs plugin 
 - [ ] Lambda testing
 - [ ] Tested and approved
 

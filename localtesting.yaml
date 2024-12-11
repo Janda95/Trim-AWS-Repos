@@ -1,5 +1,9 @@
 ---
-# sample yaml file
-name: repo1
-- ttl_hours: 10
-- min_survivors: 2
+# sample 
+ECRs:
+- name: renovate/renovate
+  min_age_hours: 36
+  min_survivors: 4
+- name: bitnami/redis
+  min_age_hours: 168
+  min_survivors: 4

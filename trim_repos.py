@@ -75,8 +75,15 @@ def trim(file_name):
 def main():
   args = get_args()
   # get_args(operation='help')
-  trim(args.filename)
+  trim(args.filename, args.debug, args.delete)
+
+
+def handler(event, context):
+  args = get_args()
+  # get_args(operation='help')
+  trim(args.filename, args.debug, args.delete)
 
 
 if __name__ == '__main__':
-  main()
+  # main()
+  logger.info(handler(1,1))

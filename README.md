@@ -1,5 +1,3 @@
-### *Under Construction*
-
 # TrimExtraRepos_Lambda
 
 ### Overview
